@@ -2,7 +2,6 @@ from os.path import exists
 from csv import DictReader, DictWriter
 
 
-
 def get_info():
     info = []
     first_name = input('введите фамилию:      ')
