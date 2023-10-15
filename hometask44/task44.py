@@ -11,7 +11,6 @@ import random
 # Сможете ли вы это сделать без get_dummies?
 
 
-
 lst = ['robot'] * 10
 lst += ['human'] * 10
 random.shuffle(lst)
@@ -20,6 +19,7 @@ data.head()
 print(data)
 print('')
 
+# решение
 
 data['tmp'] = 1
 data.set_index([data.index, 'whoAmI'], inplace=True)
